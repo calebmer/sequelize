@@ -357,7 +357,7 @@ export interface WhereAttributeHash {
    *    }
    *  }
    */
-  [field: string]: WhereValue | WhereOptions;
+  [field: string]: WhereValue | WhereOptions | undefined;
 }
 /**
  * Through options for Include Options
